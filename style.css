@@ -1,0 +1,42 @@
+.team {
+  margin: 0 auto;
+ max-width: 800px;
+   background-color: brown; 
+}
+
+.row {
+   margin-bottom: 50px; 
+}
+
+.col-md-4 { 
+  width: 33%;
+  float: left;
+   background-color: brown; 
+  box-shadow: 0 0 20px white;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px; 
+}
+
+.card img {
+ width: 100%;
+  border-radius: 50%;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+@media (max-width: 500px) {
+  .row {
+   flex-wrap: wrap; 
+  }
+
+  .col-md-4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
